@@ -34,7 +34,6 @@
     </dependency>
 </dependencies>
 <properties>
-  <sonar.token>sqa_c461a16bde6691b763d6f9d981e983e430a63fd3</sonar.token>
   <sonar.language>java</sonar.language>
   <sonar.scm.provider>git</sonar.scm.provider>
 </properties>
