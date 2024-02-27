@@ -33,6 +33,12 @@
         <version>2.22.1</version>
     </dependency>
 </dependencies>
+<properties>
+  <sonar.host.url>http://xxxxx:9000</sonar.host.url>
+  <sonar.login>sqa_c461a16bde6691b763d6f9d981e983e430a63fd3</sonar.login>
+  <sonar.language>java</sonar.language>
+  <sonar.scm.provider>git</sonar.scm.provider>
+</properties>
 <build>
     <plugins>
         <plugin>
