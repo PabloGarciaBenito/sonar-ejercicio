@@ -5,7 +5,7 @@ node {
   stage('SonarQube Analysis') {
     def mvn = tool 'jenkins-maven';
     withSonarQubeEnv(credentialsId: 'e2aa2e80-4265-4631-be48-d8d26f78b869') {
-      sh "${mvn}/bin/mvn clean verify sonar:sonar -Dsonar.host.url=http://127.0.0.1:9000 -Dsonar.projectKey=1a -Dsonar.projectName='1' -Dsonar.token=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"
+      sh "${mvn}/bin/mvn clean verify sonar:sonar -Dsonar.projectKey=1a -Dsonar.projectName='1' -Dsonar.token=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"
     }
   }
 }
