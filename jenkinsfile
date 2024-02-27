@@ -6,7 +6,7 @@ node {
     def mvn = tool 'jenkins-maven';
     def scannerHome = tool 'SonarQube Scanner'
     withSonarQubeEnv(credentialsId: 'sonar') {
-      sh "${scannerHome}/bin/sonar-scanner"
+      sh "${scannerHome}/bin/sonar-scanner -X"
       sh "${mvn}/bin/mvn clean verify sonar:sonar -Dsonar.token=sqa_c461a16bde6691b763d6f9d981e983e430a63fd3"
     }
   }
