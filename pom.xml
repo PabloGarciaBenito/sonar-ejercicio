@@ -34,7 +34,7 @@
     </dependency>
 </dependencies>
 <properties>
-  <sonar.host.url>http://172.18.0.4</sonar.host.url>
+  <sonar.host.url>http://172.18.0.4:9000</sonar.host.url>
   <sonar.language>java</sonar.language>
   <sonar.scm.provider>git</sonar.scm.provider>
 </properties>
