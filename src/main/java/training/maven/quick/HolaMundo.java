@@ -16,4 +16,7 @@ public class HolaMundo{
     public int division(final int firstNumber, final int secondNumber) {
         return firstNumber / secondNumber;
     }
+    public static void main(String[] args) {
+        
+    }
 }
