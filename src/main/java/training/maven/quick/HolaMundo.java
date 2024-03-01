@@ -17,6 +17,6 @@ public class HolaMundo{
         return firstNumber / secondNumber;
     }
     public static void main(String[] args) {
-        
+        System.out.println("Hola mundo");
     }
 }
