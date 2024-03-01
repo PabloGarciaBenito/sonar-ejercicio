@@ -7,22 +7,22 @@ public class AppTest {
     private final HolaMundo sut = new HolaMundo();
 
     @Test
-    public void AdditionShouldAddTwoNumbers() {
+    public void additionShouldAddTwoNumbers() {
         assertEquals(4, sut.addition(2, 2));
     }
 
     @Test
-    public void SubtractionShouldSubtractSecondNumberFromFirstNumber() {
+    public void subtractionShouldSubtractSecondNumberFromFirstNumber() {
         assertEquals(6, sut.subtraction(8, 2));
     }
 
     @Test
-    public void MultiplicationShouldMultiplyTwoNumbers() {
+    public void multiplicationShouldMultiplyTwoNumbers() {
         assertEquals(32, sut.multiplication(8, 4));
     }
 
     @Test
-    public void DivisionShouldDivideFirstNumberWithTheSecond() {
+    public void divisionShouldDivideFirstNumberWithTheSecond() {
         assertEquals(5,sut.division(40, 8));
     }
 }
