@@ -8,7 +8,7 @@
   <groupId>training.maven.quick</groupId>
   <artifactId>HolaMundo-ejercicio</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   
   <name>Hola Mundo</name>
   <description>
@@ -37,12 +37,19 @@
       <artifactId>maven-deploy-plugin</artifactId>
       <version>3.1.1</version>
     </dependency>
-</dependencies>
-<properties>
-  <sonar.host.url>http://172.18.0.4:9000</sonar.host.url>
-  <sonar.language>java</sonar.language>
-  <sonar.scm.provider>git</sonar.scm.provider>
-</properties>
+  </dependencies>
+      <distributionManagement>
+        <repository>
+            <id>sonar-prueba</id>
+            <name>sonar-prueba</name>
+            <url>http://172.18.0.2:8081/nexus/content/repositories/sonar-prueba</url>
+        </repository>
+    </distributionManagement>
+  <properties>
+    <sonar.host.url>http://172.18.0.5:9000</sonar.host.url>
+    <sonar.language>java</sonar.language>
+    <sonar.scm.provider>git</sonar.scm.provider>
+  </properties>
 <build>
     <plugins>
         <plugin>
@@ -67,14 +74,12 @@
         </configuration>
       </plugin>
       <plugin>
-        <groupId>org.sonatype.plugins</groupId>
+        <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-deploy-plugin</artifactId>
         <version>3.1.1</version>
         <extensions>true</extensions>
         <configuration>
-          <nexusUrl>http://172.18.0.5:8081</nexusUrl>
-          <serverId>local-nexus</serverId>
-          <repository>maven-releases</repository>
+          <nexusUrl>http://127.0.0.1:8081/nexus/content/repositories/sonar-prueba</nexusUrl>
           <skipNexusStagingDeployMojo>true</skipNexusStagingDeployMojo>
         </configuration>
       </plugin>
