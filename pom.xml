@@ -79,7 +79,6 @@
         <version>3.1.1</version>
         <extensions>true</extensions>
         <configuration>
-          <nexusUrl>http://127.0.0.1:8081/nexus/content/repositories/sonar-prueba</nexusUrl>
           <skipNexusStagingDeployMojo>true</skipNexusStagingDeployMojo>
         </configuration>
       </plugin>
