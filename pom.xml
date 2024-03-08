@@ -108,7 +108,7 @@
         </dependencies>
         <configuration>
           <databaseDriverName>org.postgresql.Driver</databaseDriverName>
-          <connectionString>jdbc:postgresql://localhost/dependencycheck</connectionString>
+          <connectionString>jdbc:postgresql://172.18.0.6:5432/dependencycheck</connectionString>
           <databaseUser>postgres</databaseUser>
           <databasePassword>postgres</databasePassword>
         </configuration>
