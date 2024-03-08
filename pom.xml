@@ -106,19 +106,6 @@
             <version>42.7.2</version>
           </dependency>
         </dependencies>
-        <configuration>
-          <databaseDriverName>org.postgresql.Driver</databaseDriverName>
-          <connectionString>jdbc:postgresql://172.18.0.6:5432/dependencycheck</connectionString>
-          <databaseUser>postgres</databaseUser>
-          <databasePassword>postgres</databasePassword>
-        </configuration>
-        <executions>
-          <execution>
-            <goals>
-              <goal>update-only</goal>
-            </goals>
-          </execution>
-        </executions>
       </plugin>
     </plugins>
 </build>
