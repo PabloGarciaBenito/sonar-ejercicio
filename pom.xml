@@ -47,7 +47,7 @@
         <repository>
             <id>sonar-prueba</id>
             <name>sonar-prueba</name>
-            <url>http://172.18.0.4:8081/nexus/content/repositories/sonar-prueba</url>
+            <url>http://172.18.0.2:8081/nexus/content/repositories/sonar-prueba</url>
         </repository>
     </distributionManagement>
   <properties>
