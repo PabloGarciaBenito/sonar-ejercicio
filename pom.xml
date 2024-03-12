@@ -123,4 +123,10 @@
         </plugin>
     </plugins>
 </reporting>
+<repositories>
+    <repository>
+      <id>maven-public</id>
+      <url>http:/172.18.0.4:8081/repository/maven-public/</url>
+    </repository>
+  </repositories>
 </project>
