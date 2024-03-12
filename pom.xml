@@ -47,11 +47,11 @@
         <repository>
             <id>sonar-prueba</id>
             <name>sonar-prueba</name>
-            <url>http://172.18.0.2:8081/repository/sonar-prueba/</url>
+            <url>http://172.18.0.4:8081/repository/sonar-prueba/</url>
         </repository>
     </distributionManagement>
   <properties>
-    <sonar.host.url>http://172.18.0.5:9000</sonar.host.url>
+    <sonar.host.url>http://172.18.0.6:9000</sonar.host.url>
     <sonar.language>java</sonar.language>
     <sonar.scm.provider>git</sonar.scm.provider>
   </properties>
