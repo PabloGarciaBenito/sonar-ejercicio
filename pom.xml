@@ -47,7 +47,7 @@
         <repository>
             <id>sonar-prueba</id>
             <name>sonar-prueba</name>
-            <url>http://172.18.0.4:8081/repository/sonar-prueba/</url>
+            <url>http://172.18.0.5:8081/repository/sonar-prueba/</url>
         </repository>
     </distributionManagement>
   <properties>
@@ -126,7 +126,7 @@
 <repositories>
     <repository>
       <id>maven-public</id>
-      <url>http:/172.18.0.4:8081/repository/maven-public/</url>
+      <url>http:/172.18.0.3:8081/repository/maven-public/</url>
     </repository>
   </repositories>
 </project>
