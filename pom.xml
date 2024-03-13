@@ -126,7 +126,7 @@
 <repositories>
     <repository>
       <id>maven-public</id>
-      <url>http:/172.18.0.3:8081/repository/maven-public/</url>
+      <url>http:/172.18.0.5:8081/repository/maven-public/</url>
     </repository>
   </repositories>
 </project>
