@@ -111,6 +111,13 @@
             <version>42.7.2</version>
           </dependency>
         </dependencies>
+        <executions>
+          <execution>
+              <goals>
+              <goal>check</goal>
+            </goals>
+          </execution>
+        </executions>
         <configuration>
           <databaseDriverName>org.postgresql.Driver</databaseDriverName>
           <connectionString>jdbc:postgresql://172.18.0.4:5432/dependencycheck</connectionString>
